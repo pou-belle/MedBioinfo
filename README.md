@@ -43,8 +43,8 @@ simply by executing the download commands that will be documented in the scripts
  - a copy of the supplementary material & methods are in ```Castaneda-Mogollon_et_al_J_Clinical_Vir_Dec_2021_supp_mat_and_meth.pdf```
  
 ### Organisation of the collaborative analysis
-- the raw sequencing files archived at the NCBI SRA https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=PRJEB47870 will be downloaded in ```data/```
-- data needed to collaborate will be stored in the SQLite database in ```analyses/sample_collab.db```
+  - the raw sequencing files archived at the NCBI SRA https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=PRJEB47870 will be downloaded in ```data/```
+  - data needed to collaborate will be stored in the SQLite database in ```analyses/sample_collab.db```
   - table ```SraRunTable``` is a direct DB import of ```data/SraRunTable.csv```
   - table ```sample_overviews``` is a direct DB import of concatenated files ```data/sample_overviews 5.csv``` plus ```data/sample_overviews 3.csv```
   - table ```ct_values``` is a direct DB import of ```data/ct_values_covid19_metagenomics.xlsx```
@@ -54,7 +54,7 @@ simply by executing the download commands that will be documented in the scripts
 ### References
  - publication in Journal of Clinical Virology, Volume 145, December 2021: https://www.sciencedirect.com/science/article/pii/S1386653221002924
  - referenced papers on the "spiked primer enrichment" technique (nothing to do with the SC2 Spike protein...): 
-   - https://www.nature.com/articles/s41564-019-0637-9
-   - preprint applied to SC2: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217139/
-   - with a corresponding "open reproducible protocol": https://www.protocols.io/view/sars-cov-2-enrichment-sequencing-by-spiked-primer-261geowedl47/v4
+ - https://www.nature.com/articles/s41564-019-0637-9
+ - preprint applied to SC2: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7217139/
+ - with a corresponding "open reproducible protocol": https://www.protocols.io/view/sars-cov-2-enrichment-sequencing-by-spiked-primer-261geowedl47/v4
  - paper describing the "IDSeq" (now morphed into https://czid.org/) metagenomic analysis protocol (used in the 2021 J. of Clinical Virol): https://academic.oup.com/gigascience/article/9/10/giaa111/5918865?login=true
